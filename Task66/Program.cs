@@ -10,10 +10,10 @@ int m = int.Parse(ReadLine());
 Write("Введите N: ");
 int n = int.Parse(ReadLine());
 WriteLine();
-WriteLine(SumElements(m,n));
-int SumElements(int start,int end)
+WriteLine(SumElements(m, n));
+int SumElements(int start, int end)
 {
-    if (start==end)
+    if (start == end)
     {
         return end;
     }
